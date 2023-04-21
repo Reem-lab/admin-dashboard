@@ -3,8 +3,8 @@ import { Routes, Route} from 'react-router-dom';
 import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import Topbar from './scenes/global/TopBar';
-import Sidebar from './scenes/global/sideBar'
-import Dashboard from './scenes/Dashboard'
+import Sidebar from './scenes/global/SideBar';
+import Dashboard from "./scenes/dashboard";
 // import Team from './scenes/Team'
 // import Invoices from './scenes/Invoices'
 // import Contacts from './scenes/Contacts'
